@@ -24,17 +24,17 @@ header {
     background: rgba(0, 0, 0, 0.9);
     backdrop-filter: blur(10px);
     z-index: 1000;
-    padding: 1rem 0;
+    padding: 1rem 2rem;
     border-bottom: 1px solid #d4af37;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
 }
 
+/* remove unused container rule for fixed header structure */
 header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
+    display: none;
 }
 
 .logo h1 {
